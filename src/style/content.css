@@ -1,0 +1,16 @@
+.card {
+    height: 274px;
+    width: 374px;
+    margin-bottom: 40px;
+    margin-right: 98px;
+    background-color: #F8B179;
+    border-radius:10px;
+    color: #fff;
+}
+.card2{
+    background-color: #F8B179;
+    width: 258px;
+    height: 215px;
+    border-radius: 10px;
+    color: #fff;
+}

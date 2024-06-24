@@ -1,0 +1,110 @@
+:root {
+  --bgdark: #2d3250;
+  --darkblue: #424769;
+  --lightblue: #676f9d;
+  --white: #ffffff;
+  --cream: #f9b17a;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Raleway'; */
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* max-width: 1200px; */
+}
+.cover {
+  width: 800px;
+  height: 100%;
+  background-color: var(--bgdark);
+  padding: 150px 110px;
+}
+
+.brand-logo {
+  width: 150px;
+  margin: 20px 30px;
+}
+
+.image-cover {
+  width: 535px;
+  margin: -50px 0 0 0;
+}
+
+.wrapper {
+  width: 800px;
+  height: 100%;
+  padding: 238px 80px;
+  background-color: #ffffff;
+}
+
+.wrapper h1 {
+  font-size: 48px;
+}
+
+.wrapper .under-line {
+  height: 3px;
+  background: var(--cream);
+  margin-bottom: 40px;
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+  border-radius: 40px;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: lightgray;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+}
+
+.acception label input {
+  margin-right: 10px;
+}
+
+.wrapper .btn {
+  width: 150px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  background: var(--cream);
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  margin: 10px 168px 20px 168px;
+}
+
+.wrapper .btn:hover {
+  filter: brightness(85%);
+}
+
+.create {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -35px;
+}
+
+.create a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.create a:hover {
+  text-decoration: underline;
+  color: #f9b17a;
+}
